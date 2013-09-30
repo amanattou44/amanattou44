@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[ライオンさんの暇つぶし]]></title>
+  <link href="http://amanattou44.github.io/amanattou44/atom.xml" rel="self"/>
+  <link href="http://amanattou44.github.io/amanattou44/"/>
+  <updated>2013-09-30T16:40:46+09:00</updated>
+  <id>http://amanattou44.github.io/amanattou44/</id>
+  <author>
+    <name><![CDATA[lionman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[テストタイトル]]></title>
+    <link href="http://amanattou44.github.io/amanattou44/blog/2013/09/30/tesutotaitoru/"/>
+    <updated>2013-09-30T16:23:00+09:00</updated>
+    <id>http://amanattou44.github.io/amanattou44/blog/2013/09/30/tesutotaitoru</id>
+    <content type="html"><![CDATA[<p>Welcome! Hello World!</p>
+]]></content>
+  </entry>
+  
+</feed>

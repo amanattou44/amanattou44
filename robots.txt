@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://amanattou44.github.io/amanattou44/sitemap.xml 
