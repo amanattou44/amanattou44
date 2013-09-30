@@ -4,7 +4,7 @@
   <title><![CDATA[ライオンさんの暇つぶし]]></title>
   <link href="http://amanattou44.github.io/amanattou44/atom.xml" rel="self"/>
   <link href="http://amanattou44.github.io/amanattou44/"/>
-  <updated>2013-09-30T16:56:46+09:00</updated>
+  <updated>2013-09-30T17:47:26+09:00</updated>
   <id>http://amanattou44.github.io/amanattou44/</id>
   <author>
     <name><![CDATA[lionman]]></name>
@@ -14,11 +14,29 @@
 
   
   <entry>
-    <title type="html"><![CDATA[hello]]></title>
+    <title type="html"><![CDATA[ブログをgithubに今更移行したよ！]]></title>
     <link href="http://amanattou44.github.io/amanattou44/blog/2013/09/30/hello/"/>
     <updated>2013-09-30T16:44:00+09:00</updated>
     <id>http://amanattou44.github.io/amanattou44/blog/2013/09/30/hello</id>
-    <content type="html"><![CDATA[<p>Hello!</p>
+    <content type="html"><![CDATA[<h1>はじめに</h1>
+
+<p>やぁ諸君。
+ここに辿り着いたって事はきっと君は疲れているんだ。
+ここで少しばかり休んで行くと良い。</p>
+
+<h1>次に</h1>
+
+<p>ここは一介のコーダーが延々とコードの事を一方的に語って行く場だが、今日は移行記念だ。
+書かない。
+つまりここには、何も無い。
+はは、笑えない冗談かい？
+気にしないで良い。
+世の中そんな事ばっかりだ！</p>
+
+<h1>最後に</h1>
+
+<p>今後はこっちにコード関連の事を残して行こうと思うが、どうするかな。
+カテゴリ分けとかもっと楽に出来ると嬉しいんだが。。</p>
 ]]></content>
   </entry>
   
