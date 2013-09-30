@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: vim | ライオンさんの暇つぶし]]></title>
+  <link href="http://amanattou44.github.io/amanattou44/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://amanattou44.github.io/amanattou44/"/>
+  <updated>2013-09-30T22:30:22+09:00</updated>
+  <id>http://amanattou44.github.io/amanattou44/</id>
+  <author>
+    <name><![CDATA[lionman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[vimtutorを使ってvimを学ぼう]]></title>
+    <link href="http://amanattou44.github.io/amanattou44/blog/2013/09/30/vimtutor/"/>
+    <updated>2013-09-30T22:19:00+09:00</updated>
+    <id>http://amanattou44.github.io/amanattou44/blog/2013/09/30/vimtutor</id>
+    <content type="html"><![CDATA[<h2>vimにもtutorialがあった！</h2>
+
+<p><strong>しかも日本語(しかも簡単)</strong></p>
+
+<p>今すぐコンソールで
+<code>
+vimtutor
+</code></p>
+
+<p><strong>これで君もvimmerへの入り口へと立とう！</strong></p>
+
+<h6>※これはMarkdownの記法のテストも兼ねて変な書き方をしております</h6>
+]]></content>
+  </entry>
+  
+</feed>
