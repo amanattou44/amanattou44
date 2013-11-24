@@ -4,7 +4,7 @@
   <title><![CDATA[ライオンさんの暇つぶし]]></title>
   <link href="http://amanattou44.github.io/amanattou44/atom.xml" rel="self"/>
   <link href="http://amanattou44.github.io/amanattou44/"/>
-  <updated>2013-09-30T22:30:22+09:00</updated>
+  <updated>2013-11-24T21:15:02+09:00</updated>
   <id>http://amanattou44.github.io/amanattou44/</id>
   <author>
     <name><![CDATA[lionman]]></name>
@@ -12,6 +12,85 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[forbunnowaruikuse]]></title>
+    <link href="http://amanattou44.github.io/amanattou44/blog/2013/10/13/forbunnowaruikuse/"/>
+    <updated>2013-10-13T09:19:00+09:00</updated>
+    <id>http://amanattou44.github.io/amanattou44/blog/2013/10/13/forbunnowaruikuse</id>
+    <content type="html"><![CDATA[<h2>分かっているんだけど&hellip;</h2>
+
+<p>気付いたらやっちまったので戒めに書いておく。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">len</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">len</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;始めfor: &quot;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;始めfor終わり: &quot;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span><span class='line'>  <span class="k">for</span><span class="p">(;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">len</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;中継ぎfor: &quot;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;中継ぎfor終わり: &quot;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span><span class='line'>  <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">len</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">len</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
+</span><span class='line'>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;終わりfor: &quot;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;終わりfor終わり: &quot;</span> <span class="o">+</span> <span class="nx">i</span><span class="p">);</span>
+</span><span class='line'><span class="p">})();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c"># 結果</span>
+</span><span class='line'>始めfor: 0
+</span><span class='line'>始めfor: 1
+</span><span class='line'>始めfor: 2
+</span><span class='line'>始めfor終わり: 3
+</span><span class='line'>中継ぎfor終わり: 3
+</span><span class='line'>終わりfor: 0
+</span><span class='line'>終わりfor: 1
+</span><span class='line'>終わりfor: 2
+</span><span class='line'>終わりfor: 3
+</span><span class='line'>終わりfor: 4
+</span><span class='line'>終わりfor終わり: 5
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>まぁ当然だけどこれしたらダメだよ。(早々無いんだけど、たまにやらかす。&#8221;中継ぎfor:&ldquo;の分が丸々無いのが問題）</p>
+
+<p>for文の中で宣言した変数はスコープがfor内で収まるわけではないので、残った状態になる。</p>
+
+<p>これがグローバルスコープとローカルスコープしか持っていないJavaScriptの弱点&hellip;では無いけども使い辛い点でもある（ブロックスコープが無い点）</p>
+
+<p>（ちょっと思ったけどfor文で宣言した変数はいつGC対象になるんだろう？）</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[vimtutorを使ってvimを学ぼう]]></title>
@@ -57,6 +136,22 @@ vimtutor
 
 <p>今後はこっちにコード関連の事を残して行こうと思うが、どうするかな。
 カテゴリ分けとかもっと楽に出来ると嬉しいんだが。。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[【MAC】OSを調べるコマンド]]></title>
+    <link href="http://amanattou44.github.io/amanattou44/blog/2013/07/20/mac-os-check-up/"/>
+    <updated>2013-07-20T23:50:00+09:00</updated>
+    <id>http://amanattou44.github.io/amanattou44/blog/2013/07/20/mac-os-check-up</id>
+    <content type="html"><![CDATA[<p>MACのみのコマンドになりますが、下記コマンドで調べる事が出来ます。
+地味に便利。
+他のUNIX、LINUX、windowsなどでのコマンドもあれば記載したいと思いますので、ご教授いただければと思います。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>sw_vers
+</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   
