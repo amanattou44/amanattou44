@@ -143,7 +143,7 @@
 
 <h2>最後に</h2>
 
-<p>全然儲かってないlang-8さんらしいですが、益々のご発展をお祈り申し上げます。</p>
+<p>全然儲かってないlang-8さんらしいですが、更なるご発展をお祈り申し上げます。</p>
 </div>
   
   
@@ -480,45 +480,7 @@ vimtutor
 
 
 
-
-<section>
-  <h1>About Me</h1>
-  <div id="twitter-profile" style="margin-top:0.5em;">
-    <p>
-      <strong>lionman</strong> 
-      (<a href="http://twitter.com/amanattou44">@amanattou44</a>)
-    </p>
-    <p></p>
-  </div>
-  <script type="text/javascript">
-    $(function(){
-        var container = $('#twitter-profile'),
-            user = "amanattou44";
-        
-        function parseTwLinks(s) {
-          var twUrl = "http://www.twitter.com/"
-          s = s.replace(/ (@([\w]+))/g, function(match, p1, p2) {
-              return " <a href='"+twUrl+p2+"'>"+p1+"</a>"
-          }).replace(/ (#([\w]+))/g, function(match, p1, p2) {
-              return " <a href='"+twUrl+"#!/search?q=%23"+p2+"'>"+p1+"</a>"
-          })
-          return s
-        }
-
-        $.ajax({
-            url: "http://api.twitter.com/1/users/show.json?include_entities=false&screen_name="+user+"&callback=?"
-          , type: 'GET'
-          , dataType: 'jsonp'
-          , error: function (err) { $('#twitter-profile').addClass('error');  }
-          , success: function(data) {
-              container.html('<img class="left" src="http://api.twitter.com/1/users/profile_image/'+user+'.json?size=bigger" alt="@'+user+'"><p><strong>'+data.name+'</strong> (<a href="http://twitter.com/'+user+'">@'+user+'</a>)<br/>'+data.location+'</p><p>'+parseTwLinks(data.description)+'</p>');
-            }
-        })
-      });
-  </script>
-</section>
-
-
+Include file &#8216;./custom/asides/aboutmetwitter.html&#8217; contains invalid characters or sequencesIncluded file &#8216;./custom/asides/aboutmetwitter.html&#8217; not found in _includes directory
   
 </aside>
 
